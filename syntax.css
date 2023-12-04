@@ -1,0 +1,58 @@
+*{
+     padding: opx;
+     margin: 0px;
+     box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+
+
+}
+
+h1{
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+form{
+    box-shadow: 0px 0px 5px;
+    padding: 20px;
+    border-radius: 5px;
+
+
+
+}
+form div{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form div input{
+   padding: 10px 5px;
+
+
+}
+form button{
+    background-color: red;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 8px;
+}
+#cancel{
+    background-color: black;
+    color: white;
+}
+.yes{
+    color: blue;
+}
+
+
